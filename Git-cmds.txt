@@ -1,0 +1,38 @@
+
+
+React Project Git Push Commands (Step-by-Step) :-
+
+1️⃣ Repo initialize karna (Agar naye folder me Git shuru kar rahe ho)
+git init
+
+
+2️⃣ Remote repository add karna (Sirf pehli baar)
+git remote add origin <repo-URL>
+Example:
+git remote add origin https://github.com/Capten05ast/Stack_Stock_Store.git
+
+
+3️⃣ File changes stage karna
+git add .
+
+
+4️⃣ Commit create karna
+git commit -m "Your commit message"
+
+
+5️⃣ GitHub changes fetch karna (Agar repo me pehle se kuch code hai)
+git fetch origin
+
+
+6️⃣ Apna local code aur GitHub ka code merge/rebase karna
+(Merge ke badle rebase use karna zyada clean hota hai)
+git pull --rebase origin main
+
+
+7️⃣ Final push karna
+git push -u origin main
+
+
+8️⃣ Agar remote origin galat set ho gaya ho (Delete + naya add)
+git remote remove origin
+git remote add origin <repo-URL>
