@@ -62,3 +62,15 @@ dist folder : npm run build
 
 
 
+RENDER :-
+If you are going to publish this website on render, then keep these 
+things in mind :-
+> choose static site in Add new
+> your build command should be : cd frontend && npm install && npm run build
+> your directory should be : frontend/dist
+> Now simply deploy
+> Why we did this becoz package.json file is inside the frontend folder, 
+  which means dist and package.json should be in one folder
+
+
+
