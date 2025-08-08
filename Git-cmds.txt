@@ -36,3 +36,10 @@ git push -u origin main
 8️⃣ Agar remote origin galat set ho gaya ho (Delete + naya add)
 git remote remove origin
 git remote add origin <repo-URL>
+
+
+
+
+.gitignore file :-
+The files you dont wanna put in repo but still wanna want work, put
+them in .gitignore file
