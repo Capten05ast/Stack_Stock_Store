@@ -41,6 +41,17 @@ const Products = () => {
   // npm infinte scroll components.
   return (
   <div className='scrollbar-hide'>
+
+
+    {/* Brand Heading */}
+    <div className='p-6 text-center mb-[-1px]'>
+      <h1 className='text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 drop-shadow-lg tracking-wide'>
+        Stack_Stock
+      </h1>
+      <p className='mt-2 text-gray-300 text-lg italic'>
+        Your one-stop shop for premium picks
+      </p>
+    </div>
     
 
     <div className='p-4 flex justify-center items-center flex-col'>
